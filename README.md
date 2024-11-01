@@ -230,8 +230,8 @@
 
   //Custom Css
   "vscode_custom_css.imports": [
-    "file:///C:/Users/Administrator/.vscode/Css/custom.css",
-    "file:///C:/Users/Administrator/.vscode/Css/vscode-script.js"
+     "file:///C:/Users/Administrator/.vscode/assets/script.js",
+     "file:///C:/Users/Administrator/.vscode/assets/style.css"
   ],
   "window.menuBarVisibility": "compact",
   "editor.wordWrap": "on",
