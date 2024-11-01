@@ -104,12 +104,6 @@
     ".pkl": "cd $dir && pkl eval -f yaml $fileName -o $fileNameWithoutExt.yaml",
     ".gleam": "gleam run -m $fileNameWithoutExt"
   },
-  "editor.stickyScroll.enabled": false,
-  "codeium.enableCodeLens": false,
-  "security.workspace.trust.untrustedFiles": "open",
-  "security.promptForLocalFileProtocolHandling": false,
-  "terminal.integrated.altClickMovesCursor": false,
-  "workbench.settings.applyToAllProfiles": ["FiraCode-Retina"],
 
   "workbench.iconTheme": "material-icon-theme",
   "liveServer.settings.donotShowInfoMsg": true,
@@ -130,6 +124,7 @@
   "[javascriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
+
   "workbench.colorTheme": "Ayu Dark",
   "reactSnippets.settings.prettierEnabled": true,
   "prettier.endOfLine": "auto",
@@ -186,7 +181,6 @@
   "editor.gotoLocation.multipleImplementations": "goto",
   "editor.gotoLocation.multipleTypeDefinitions": "goto",
   "workbench.editor.enablePreviewFromQuickOpen": false,
-  "workbench.activityBar.location": "hidden",
 
   // Typography
   "editor.fontFamily": "JetBrains Mono",
@@ -229,10 +223,8 @@
   "workbench.tree.enableStickyScroll": false,
 
   //Custom Css
-  "vscode_custom_css.imports": [
-     "file:///C:/Users/Administrator/.vscode/assets/script.js",
-     "file:///C:/Users/Administrator/.vscode/assets/style.css"
-  ],
+  "vscode_custom_css.imports": ["file:///C:/Users/Administrator/.vscode/assets/script.js", "file:///C:/Users/Administrator/.vscode/assets/style.css"],
+
   "window.menuBarVisibility": "compact",
   "editor.wordWrap": "on",
   "[json]": {
@@ -258,6 +250,9 @@
     "HTML (EEx)",
     "HTML (Eex)",
     "plist"
-  ]
+  ],
+  "workbench.activityBar.location": "hidden",
+  "workbench.sideBar.location": "right"
 }
+
 ```
